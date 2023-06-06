@@ -1,0 +1,18 @@
+body{
+display: grid;
+grid-template-areas:
+"cab cab cab"
+"pri pri asi"
+"foo foo foo";
+}
+header{
+ grid-area: cab;
+ background-color: #d1321f;
+
+
+}
+/* .color1 { #c21509 };
+.color2 { #d1321f };
+.color3 { #e14e36 };
+.color4 { #f06b4c }; 
+.color5 { #ff8762 }; */
