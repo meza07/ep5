@@ -1,0 +1,49 @@
+body{
+    background-color: #229336;
+    grid-template-areas: 
+    "cab cab cab"
+    "pri pri asi"
+    "foo foo foo";
+}
+header{
+    grid-area: cap;
+    color: black;
+    border-radius: 50px;
+    border: black solid 15px;
+    position: relative;
+    background-color: #85b04e;
+
+}
+aside{
+    grid-area: asi;
+    background-color: #74dc3d ;
+    border-radius: 50px;
+    text-align: center;
+    border: black solid 15px;
+}
+main{
+    grid-area: pri;
+    background-color: #65d718;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 50px;
+    border: black solid 15px;
+}
+
+
+footer{
+    grid-area: foo;
+    background-color: #85b04e;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    border: black solid 15px;
+    border-radius: 30%;
+}
+header img{
+    width: 150px;
+}
