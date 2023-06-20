@@ -1,0 +1,103 @@
+body{
+    background-color: darkred;
+display: grid;
+grid-template-areas:
+"cab cab cab"
+"pri pri asi"
+"foo foo foo";
+}
+header{
+ grid-area: cab;
+ background-color:#ba2d2d;
+ color: white;
+ border-radius: 50px;
+ border: black solid 15px;
+ position: relative;
+ 
+
+
+}
+aside{
+    grid-area: asi;
+    background-color: #c21509 ;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    border: black solid 15px;
+}
+main{
+    grid-area: pri;
+    background-color: #a30006 ;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 50px;
+    border: black solid 15px;
+}
+footer{
+    grid-area: foo;
+    background-color:#c21a01;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    color: black;
+    border: black solid 15px;
+}
+
+
+/* .color1 { #c21509 };
+.color2 { #d1321f };
+.color3 { #e14e36 };
+.color4 { #f06b4c }; 
+.color5 { #ff8762 }; */
+header img{
+    width: 350px;
+    text-align: center;
+}
+aside img{
+    width: 350px;
+    text-align: center;
+}
+.elemento_pai{
+    
+        display: flex;
+        justify-content: center;
+        width: 1000px;
+        padding: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+}
+.card{
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+.texto a{
+    padding: 10px 20px;
+    color: white; 
+}
+main img{
+    width: 350px;
+}
+header img{
+    width: 180px;
+}
+.brasil{
+    position: absolute;
+    right: 1000px;
+    top: 0%;
+}
+
+.texto li{
+    display: inline;
+}
+.texto nav{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
