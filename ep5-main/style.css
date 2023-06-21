@@ -1,5 +1,5 @@
 body{
-    background-color: darkred;
+    background-color: #e61c2c;
 display: grid;
 grid-template-areas:
 "cab cab cab"
@@ -8,7 +8,7 @@ grid-template-areas:
 }
 header{
  grid-area: cab;
- background-color:#ba2d2d;
+ background-color:#a2002e;
  color: white;
  border-radius: 50px;
  border: black solid 15px;
@@ -19,7 +19,7 @@ header{
 }
 aside{
     grid-area: asi;
-    background-color: #c21509 ;
+    background-color: #a2002e;
     text-align: center;
     color: white;
     border-radius: 50px;
@@ -27,7 +27,7 @@ aside{
 }
 main{
     grid-area: pri;
-    background-color: #a30006 ;
+    background-color: #a2002e ;
     text-align: center;
     color: white;
     display: flex;
@@ -39,16 +39,14 @@ main{
 }
 footer{
     grid-area: foo;
-    background-color:#c21a01;
+    background-color:#a2002e;
     text-align: center;
     color: white;
     font-size: 35px;
     color: black;
     border: black solid 15px;
 }
-.card{
 
-}
 
 /* .color1 { #c21509 };
 .color2 { #d1321f };
@@ -80,13 +78,8 @@ aside img{
     text-align: center;
 }
 .texto a{
-    display: block;
     padding: 10px 20px;
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    text-decoration: none;
-    transition: 0.5s;
+    color: white; 
 }
 main img{
     width: 350px;
@@ -94,17 +87,13 @@ main img{
 header img{
     width: 180px;
 }
-.brasil{
-    position: absolute;
-    right: 1000px;
-    top: 0%;
-}
 
-header nav ul li{
-    font-size: 35px;
-    color: black
+
+.texto li{
+    display: inline;
 }
-header li{
-    font-size: 50px;
-    
+.texto nav{
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }

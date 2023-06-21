@@ -1,29 +1,29 @@
 body{
-    background-color: #229336;
+    background-color: #139779;
     grid-template-areas: 
     "cab cab cab"
     "pri pri asi"
     "foo foo foo";
 }
 header{
-    grid-area: cap;
+    grid-area: cab;
     color: black;
     border-radius: 50px;
     border: black solid 15px;
     position: relative;
-    background-color: #85b04e;
+    background-color: #07985f;
 
 }
 aside{
-    grid-area: asi;
-    background-color: #74dc3d ;
+    grid-area: pri;
+    background-color: #07985f ;
     border-radius: 50px;
     text-align: center;
     border: black solid 15px;
 }
 main{
-    grid-area: pri;
-    background-color: #65d718;
+    grid-area: asi;
+    background-color: #07985f;
     text-align: center;
     color: black;
     display: flex;
@@ -37,7 +37,7 @@ main{
 
 footer{
     grid-area: foo;
-    background-color: #85b04e;
+    background-color: #07985f;
     text-align: center;
     color: black;
     font-size: 25px;
