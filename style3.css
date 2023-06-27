@@ -33,6 +33,7 @@ main{
     min-height: 100vh;
     border-radius: 50px;
     border: black solid 15px;
+    font-size: 20px;
 }
 
 footer{
@@ -60,12 +61,13 @@ main img{
     width: 300px;
 }
 .elemento_pai{
-display: flex;
-justify-content: center;
-width: 1000px;
-padding: 30px;
-align-items: center;
-left: 20px;
+    
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .card{
     border-radius: 10px;
@@ -73,6 +75,7 @@ left: 20px;
     width: 300px;
     margin: 20px;
     text-align: center;
+    border: black 10px solid;
 }
 aside img{
     width: 300px;
