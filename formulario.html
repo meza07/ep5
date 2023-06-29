@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="style2.css" media="screen">
+    <link rel="stylesheet" href="style.css" >
 </head>
-<body>
+<body class="cadas">
     <header>
         <h1>Cadastro Da Loja</h1>
         <h3>Complete suas Informações</h3>
+        <div> 
+            <a href="index.html"><img src="Imagens/flamengo-removebg-preview.png" ></a>
+        </div>
+    
     </header>
-    <main><form>
-        <fieldset class="grupo">
+    <main>
+        <form>
        <div class="Campo">
            <label>Nome</label>
            <input type="text" name="Nome" id="Nome" required>
@@ -44,9 +48,6 @@
        <input type="text" name="CEP" id="CEP">
    
         </div>
-        
-       </fieldset>
-       <fieldset class="grupo">
            <div class="Campo">
             <label>E-mail</label>
             <input type="text" name="E-mail" id="E-mail">  
@@ -63,7 +64,6 @@
                <label>RG</label>
                <input type="text" name="RG" id="RG">
            </div>
-       </fieldset>
        <div class="Campo">
        <label>
            Qual seu sexo
@@ -84,13 +84,9 @@
            <textarea rows="6" style="width: 25em" id="Informações Adicionais" name="Informações Adicionais"></textarea>
        </div>
        <button class="botão" type="submit">Enviar Cadastro</button>
-   
        </form>
        
    </main>
-    <footer></footer>
-    
-
-
-</body>
+    <footer></footer>  
+    </body>
 </html>
