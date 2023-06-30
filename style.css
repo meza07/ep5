@@ -163,3 +163,6 @@ header img{
     display: flex;
     margin: 10px;
 }
+header img{
+    width: 100px;
+}
